@@ -12,13 +12,13 @@
 [class^="pe-7s-"], [class*=" pe-7s-"] {
 	display: inline-block;
 	font-family: 'Pe-icon-7-stroke';
-	speak: none;
+	speak: none; 
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
+font-size:24px;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -141,8 +141,11 @@
 .pe-7s-close-circle:before {
 	content: "\e681";
 }
-.pe-7s-id:before {
+/* .pe-7s-id:before {
 	content: "\e68f";
+} */
+.pe-7s-id:after {
+	content: "\e68f"!important;
 }
 .pe-7s-angle-up:before {
 	content: "\e682";
@@ -210,8 +213,11 @@
 .pe-7s-video:before {
 	content: "\e604";
 }
-.pe-7s-user:before {
+/* .pe-7s-user:before {
 	content: "\e605";
+} */
+.pe-7s-user:after {
+	content: "\e605"!important;
 }
 .pe-7s-upload:before {
 	content: "\e606";
@@ -462,8 +468,11 @@
 .pe-7s-info:before {
 	content: "\e647";
 }
-.pe-7s-home:before {
+/* .pe-7s-home:before {
 	content: "\e648";
+} */
+.pe-7s-home:after {
+	content: "\e648"!important;
 }
 .pe-7s-help2:before {
 	content: "\e649";
@@ -489,8 +498,11 @@
 .pe-7s-gleam:before {
 	content: "\e650";
 }
-.pe-7s-glasses:before {
+/* .pe-7s-glasses:before {
 	content: "\e651";
+} */
+.pe-7s-glasses:after {
+	content: "\e651"!important;
 }
 .pe-7s-gift:before {
 	content: "\e652";
@@ -522,8 +534,11 @@
 .pe-7s-drawer:before {
 	content: "\e65b";
 }
-.pe-7s-download:before {
+/* .pe-7s-download:before {
 	content: "\e65c";
+} */
+.pe-7s-download:after {
+	content: "\e65c"!important;
 }
 .pe-7s-display2:before {
 	content: "\e65d";
@@ -582,9 +597,13 @@
 .pe-7s-camera:before {
 	content: "\e66f";
 }
-.pe-7s-call:before {
-	content: "\e670";
+/* i.pe-7s-call:before {
+	content: "\e670"!important;
+} */
+i.pe-7s-call:after {
+	content: "\e670"!important;
 }
+
 .pe-7s-calculator:before {
 	content: "\e671";
 }

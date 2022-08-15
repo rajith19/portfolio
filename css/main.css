@@ -60,7 +60,7 @@ input[type=submit],
 button,
 label,
 .tab-titles {
- 	font-family: "Montserrat", serif;
+ 	font-family: 'Montserrat', sans-serif; 
 	}
 	
 /* FONTELLO ICONS */
@@ -797,6 +797,9 @@ body {
 		}
 	.service h4 {
         margin-top: 0; margin-left: 68px; margin-bottom: .3em; font-size: 12px; text-transform: uppercase;
+		}
+		.client h4 {
+        font-size: 12px; text-transform: uppercase;
 		}
 
 /* PROCESS */
